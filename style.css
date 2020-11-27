@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+*{
+  margin:0;
+  padding: 0;
+}
+
+html body {
+  height: 100%;
+  font-family: "Hiragino Maru Gothic Pro";
+  
+}
+
+img {
+  vertical-align: bottom;
+}
+
+header {
+  margin-bottom: 70px;
+  width: 100%;
+}
+
+.profile {
+  margin-bottom: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.profile-img {
+  margin-top: 100px;
+  text-align: center;
+  
+  font-family: "Hiragino Maru Gothic Pro";
+}
+.profile-img h2{
+  font-size: 150%;
+}
+
+.profile-text {
+  width: 100%;
+  display: block;
+  height: 400px;
+}
+
+.text-bubble{
+  position:relative;
+  width:  100%;
+  height: 400px;
+  background:#00DAD3;
+  padding:20px;
+  text-align:left;
+  color:#333333;
+  font-size:14px;
+  font-weight:bold;
+  border-radius: 50%;
+}
+
+.profile-text p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+  width: 70%;
+  margin-bottom: 0;
+  font-family: "Hiragino Maru Gothic Pro";
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+}
+
+h3 {
+  font-family: "HanziPen TC";
+  font-size: 60px;
+  color: #008C97;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.techAcademy {
+  color: darkblue;
+  margin-bottom: 30px;
+}
+
+.studies table{
+  margin: 0 auto 40px auto;
+}
+
+path {
+  width: 150px;
+}
+
+.program-all {
+  margin-bottom: 50px;
+}
+
+.program {
+  text-align: center;
+}
+
+.udemy-title {
+  color: #FF4F50;
+  margin-bottom: 30px;
+}
+
+.udemy {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.udemy a{
+  color: black;
+  font-size: 18px;
+}
+
+.udemy a:hover{
+  text-decoration: none;
+  color: deeppink;
+}
+
+.certification-title{
+  color: #708090;
+  margin-bottom: 30px;
+}
+
+.certification {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.certification div{
+  font-size: 20px;
+}
+
+.created-site {
+  text-align: center;
+  background-image: url("./image/bg_img.png");
+  background-size: 100%;
+  margin-bottom: 150px;
+}
+
+.created-site a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.created-site a:hover{
+  color: deeppink;
+}
+
+.future {
+  position: relative;
+  margin: 0 auto 150px auto;
+  width: 90%;
+  height: 700px;
+  background-image: url("./image/bg_web2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.future:hover{
+  background-image: url("./image/bg_web.png");
+}
+
+.future p{
+  opacity: 5%;
+  position: absolute;
+  width: 75%;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  font-size: 3rem;
+  font-family: "HanziPen TC";
+  color:  black;
+  transition: all .5s;
+  
+}
+.future p:hover{
+  opacity: 100;
+}
+
+.border-color {
+  background: linear-gradient(transparent 50%, #00DAD3 50%);
+}
+
+.twitter {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.twitter a{
+  text-decoration: none;
+  color: #008C97;
+  font-family: "HanziPen TC";
+  font-size: 30px;
+}
+
+.twitter a:hover{
+  color: deeppink;
+}
+
+.twitter-name {
+  font-size: 30px;
+}

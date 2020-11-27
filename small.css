@@ -1,0 +1,212 @@
+@media screen and (max-width: 991px) {
+  .profile-img {
+    margin-top: 70px;
+    width: 300px;
+  }
+
+  .profile-img img{
+    width: 70%;
+  }
+
+  .text-bubble {
+    height: 350px;
+    width: 100%;
+  }
+
+  .profile-text p{
+    font-size: 16px;
+  }
+
+  .created-site .url{
+    font-size: 18px;
+  }
+
+  .created-site p{
+    font-size: .9rem;
+  }
+
+  .created-site img{
+    width: 90%;
+  }
+
+  .future {
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .future p{
+    top: 40%;
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .profile {
+    margin:0 0 150px 0;
+  }
+
+  .profile-img {
+    margin: 0 auto;
+  }
+
+  .profile-img h2{
+    margin-bottom: 30px;
+  }
+  
+  .profile-img img{
+    width: 90%;
+  }
+
+  .profile-text {
+    padding: 0;
+    height: 400px;
+  }
+  .text-bubble {
+    height: 400px;
+  }
+
+  .profile-text p{
+    font-size: 20px;
+    width: 75%;
+  }
+
+  .program {
+    padding: 0;
+  }
+
+  .program img{
+    width: 130px;
+  }
+
+  .created-site h4{
+    margin-top: 20px;
+    font-size: 23px;
+  }
+
+  .created-site p{
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .future {
+    height: 550px;
+    margin-bottom: 0;
+  }
+
+  .future p{
+    top: 38%;
+    font-size: 1.8rem;
+  }
+
+}
+
+@media screen and (max-width: 575px) {
+  h3 {
+    font-size: 40px;
+  }
+
+  .techAcademy {
+    font-size: 20px;
+  }
+
+  .certification-title {
+    font-size: 25px;
+  }
+
+  .profile-img img{
+    width: 60%;
+  }
+
+  .profile-text {
+    padding: 0;
+    height: 350px;
+  }
+  .text-bubble {
+    height: 350px;
+  }
+  .profile-text p{
+    font-size: 16px;
+    width: 65%;
+  }
+
+  .program {
+    margin-bottom: 30px;
+  }
+
+  .webDesign {
+    margin-bottom: 40px;
+  }
+
+  .certification-web {
+    margin-bottom: 35px;
+  }
+
+  .created-site h4{
+    font-size: 20px;
+  }
+
+  .future {
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 200px;
+    background-image: url("./image/bg_web.png");
+  }
+
+  .future p{
+    top: 60%;
+    opacity: 100;
+  }
+
+  .twitter img{
+    width: 20%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  header {
+    height: 600px;
+    width: 100%;
+    background-image: url("./image/hero_mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-bottom: 0;
+  }
+
+  header img{
+    display: none;
+  }
+
+  .future {
+    border-radius: 50px;
+  }
+  .future p{
+    top: 55%;
+  }
+
+  .twitter {
+    margin-bottom: 50px;
+  }
+
+  footer {
+    height: 600px;
+    width: 100%;
+    background-image: url("./image/footer_mobile.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+
+  footer img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .profile-text p{
+    font-size: 14px;
+  }
+}
